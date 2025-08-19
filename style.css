@@ -5,18 +5,8 @@ body {
 font-family: "Almarai", cursive;
 text-align: center;
 }
-/* Add custom CSS styles below */ 
-/* Global */
 
 
-/* Add custom CSS styles below */ 
-/* Global */
-
-
-
-body {
-  background-color: #fff !important;
-}
 
 .s-block.s-block--fixed-banner.wide-placeholder .container {
   padding-right: 0;
@@ -229,16 +219,47 @@ section.s-block.s-block--fixed-banner, section.s-block.s-block--best-offers {
 .s-slider-block__title h2:after , 
 .s-block__title h2:after , 
  .s-reviews-header-wrapper h1:after {
- content: '';
+    content: '';
+    background: url(https://i.ibb.co/Gf00cBn3/before.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     position: absolute;
     top: 0;
-    right: 0;
+    right: -1.5rem;
     height: 100%;
     z-index: -1;
     width: 3px;
-    background: #142047;
-        border-radius: 9999px;
-}
+    border-radius: 9999px;
+    width: 20px;
+    height: 100%;
+    transform: translateY(-50%);
+    top: 50%;
+    }
+    
+    
+    
+    .s-slider-block__title h2:before, 
+.s-block__title h2:before, 
+ .s-reviews-header-wrapper h1:before{
+    content: '';
+    background: url(https://i.ibb.co/Gf00cBn3/before.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: -1.5rem;
+    height: 100%;
+    z-index: -1;
+    width: 3px;
+    border-radius: 9999px;
+    width: 20px;
+    height: 100%;
+    transform: translateY(-50%);
+    top: 50%;
+    }
+    
+    
+    
 
 @media(max-width: 992px) {
   .s-slider-block__title h2:after , 
@@ -246,6 +267,11 @@ section.s-block.s-block--fixed-banner, section.s-block.s-block--best-offers {
     width: 150px;
     height: 25px;
   }
+}
+
+
+.s-slider-block__title-right{
+  margin:0 auto;
 }
 
 .s-slider-block__title h2:where([dir=rtl],[dir=rtl] *), .s-slider-block__title-right:where([dir=rtl],[dir=rtl] *) {
@@ -420,11 +446,11 @@ footer > div.store-footer__inner {
 
 footer > div.store-footer__inner > div > div.lg\:col-span-2.rtl\:lg\:pl-20.ltr\:lg\:pr-20 > a::after {
 
-    content: "";
+  content: "";
     display: block;
-    width: 150px;
-    height: 79px;
-    background-image: url();
+    width: 130px;
+    height: 131px;
+    background-image: url(https://cdn.salla.sa/cdn-cgi/image/fit=scale-down,width=400,height=400,onerror=redirect,format=auto/PdPdvx/7vKpt6dnGy0WBcemeEjOddMKa7ZedsCyyja4UtOM.png);
     background-size: cover;
     
 }
